@@ -5,7 +5,7 @@ let s:guibg2 = '#282828'
 let s:termbg = 235
 let s:termbg2= 235
 
-let s:N1 = [ s:guibg , '#928374' , s:termbg , 245 ]
+let s:N1 = [ '#928374' , s:guibg  , 245 , s:termbg]
 let s:N2 = [ '#928734' , s:guibg2, 245 , s:termbg2 ]
 let s:N3 = [ '#928734' , s:guibg, 245 , s:termbg]
 let g:airline#themes#gruvbox_clean#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
@@ -14,7 +14,7 @@ let g:airline#themes#gruvbox_clean#palette.normal_modified = {
       \ }
 
 
-let s:I1 = [ s:guibg, '#458588' , s:termbg , 66 ]
+let s:I1 = ['#83a598' ,  s:guibg, 66 , s:termbg ]
 let s:I2 = [ '#928734' , s:guibg2, 245 , s:termbg2 ]
 let s:I3 = [ '#928734' , s:guibg, 245 , s:termbg ]
 let g:airline#themes#gruvbox_clean#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
@@ -30,7 +30,7 @@ let g:airline#themes#gruvbox_clean#palette.replace = {
 let g:airline#themes#gruvbox_clean#palette.replace_modified = copy(g:airline#themes#gruvbox_clean#palette.normal_modified)
 
 
-let s:V1 = [ s:guibg, '#fe8019' , s:termbg , 208 ]
+let s:V1 = [ '#fe8019' , s:guibg,  208, s:termbg ]
 let s:V2 = [ '#928734' , s:guibg2, 245 , s:termbg2 ]
 let s:V3 = [ '#928734' , s:guibg, 245 , s:termbg ]
 let g:airline#themes#gruvbox_clean#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
