@@ -30,7 +30,7 @@ let g:airline#themes#gruvbox_clean#palette.replace = {
 let g:airline#themes#gruvbox_clean#palette.replace_modified = copy(g:airline#themes#gruvbox_clean#palette.normal_modified)
 
 
-let s:V1 = [ '#fe8019' , s:guibg,  208, s:termbg ]
+let s:V1 = [ '#fe8019' , s:guibg,  81, s:termbg ]
 let s:V2 = [ '#928734' , s:guibg2, 245 , s:termbg2 ]
 let s:V3 = [ '#928734' , s:guibg, 245 , s:termbg ]
 let g:airline#themes#gruvbox_clean#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
