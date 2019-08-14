@@ -14,7 +14,7 @@ let g:airline#themes#gruvbox_clean#palette.normal_modified = {
       \ }
 
 
-let s:I1 = ['#72a5cf' ,  s:guibg, 66 , s:termbg ]
+let s:I1 = ['#92c5ef' ,  s:guibg, 66 , s:termbg ]
 let s:I2 = [ '#928734' , s:guibg2, 245 , s:termbg2 ]
 let s:I3 = [ '#928734' , s:guibg, 245 , s:termbg ]
 let g:airline#themes#gruvbox_clean#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
